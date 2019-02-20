@@ -1,0 +1,58 @@
+\documentclass{article}
+\usepackage{amsmath, enumitem}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[margin=1in]{geometry}
+\usepackage{float}
+\restylefloat{table}
+\usepackage{placeins}
+
+
+
+\begin{document}
+
+\title{Econ 758 Homework 1}
+\author{Ege Can, John Appert}
+\maketitle
+
+\section{Question 1}
+
+\begin{enumerate}[label=\alph*]
+\item Give a short description of the relevant aspects of the EITC expansion in 1993.(Hint: Have a look at Eissa and Hoynes, 2004.) Briefly discuss the theoretical predictions for the impact of the reform on the labor market participation of  single women with children. You do  not need  to present a formal model !
+
+\item Would you expect the number of children to influence the size of the effect Why or why not? Explain.
+
+
+\item  Generate a table with descriptive statistics (Table 1, structured as i
+n Table I in Eissa and Liebman, 1996), which contains the sample means of the variables nonwhite age ed work  earn  for  two groups: single women with and without children. You do not need to display the  standard deviations. Briefly discuss the differences.
+
+\item  Now calculate the sample means separately for single women with one child and women with two or m?ore children (add the information to Table 1). How do they differ from each other
+
+\end{enumerate}
+
+\section{Question 2}
+
+For the following analysis you need to generate two dummy variables to identify the treatment group (single women with children) [call it child] and the post-treatment period (1994-1996) [call it post1993].
+
+\begin{enumerate}[label=\alph*]
+\item  Create a figure (Figure 1) that illustrates the annual mean labor market participation rates by year (1991-1996) for single women with children (treatment group) and single women without children (control group).Label the axes and include a title and a legend into the graph.
+
+\item Now normalize the value of the labor force participation rate for each of the two groups to group-specific 1991 values. That is, the mean of the labor  market participation rates in 1991 become equal to 1. Plot a graph (as the one before, including labeling, title, and legend) in Figure 2.
+
+\item  Based on Figures 1 and 2, discuss the validity of using single women without children as control group.
+
+\item Calculate the sample means of labor force participation rates (work) of women with and without children for the pre-(average over 1991-1993) and post-reform (average over 1994-1996) period. Organize your table (Table 2) as in Table II in Eissa and Liebman (1996).
+
+\item Calculate the within-and between-group differences as well as the unconditional difference-in-differences estimate and add them to Table 2. Briefly comment on your results.
+
+\item  Repeat the comparison separately for women with one child and for women with at least two children for the years before and after the EITC expansion. Again compute the within-and between-group differences and the difference-in-differences estimates. Compare each of the two groups separately to single women without children (the control group). Display the results in Table 3 and discuss your findings. For which of the two groups do you find larger treatment effects? Is this consistent with the theoretical predictions?
+
+\item Return to the comparison of women with and without children. Estimate the difference-in-differences effect from the EITC expansion by running OLS regressions. As dependent variable, use the dummy indicating labor market participation(work). First run a regression without controls (“unconditional diff-in-diff estimate”). Then add control variables (urate nonwhite age ed) to obtain the “conditional diff-in-diff estimate”. Present your results (including standard errors) in Table 4 and interpret them. Compare the estimates and their statistical significance for the conditional and unconditional difference-in-differences estimates. Also comment on the estimated coefficients of child and post1993.
+
+\item Estimate a conditional (i.e., including urate nonwhite age ed), “placebo” treatment model on the pre-treatment period. For this purpose, take data from the years 1991-1993 only and leave the treatment and control groups unchanged. Assume for the analysis that the placebo reform would have taken place on January 1st, 1992 (generate a dummy variable postplacebo that is one for year 1992 and after and an interaction with child) and present your results (including standard errors) in Table 5. What do you find?
+
+\end{enumerate}
+
+\end{document}
+
