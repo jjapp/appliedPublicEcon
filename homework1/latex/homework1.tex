@@ -58,7 +58,6 @@ In 1993 the EITC was modified to provide increased benefits to single parents.  
 
 Yes, we expect the number of children to impact the size of the effect.  The more children someone has the greater the benefit for entering the workforce.  Therefore, as the number of children increases we would expect a greater rise in the labor market participation rate.
 
-
 \item  Generate a table with descriptive statistics (Table 1, structured as in Table I in Eissa and Liebman, 1996), which contains the sample means of the variables nonwhite age ed work  earn  for  two groups: single women with and without children. You do not need to display the  standard deviations. Briefly discuss the differences.
 
 \item  Now calculate the sample means separately for single women with one child and women with two or m?ore children (add the information to Table 1). How do they differ from each other
@@ -72,54 +71,59 @@ For the following analysis you need to generate two dummy variables to identify 
 \begin{enumerate}[label=\alph*]
 \item  Create a figure (Figure 1) that illustrates the annual mean labor market participation rates by year (1991-1996) for single women with children (treatment group) and single women without children (control group).Label the axes and include a title and a legend into the graph.
 
-
 \includegraphics[width=5in, height=3in]{newplot}
-
-
 
 \item Now normalize the value of the labor force participation rate for each of the two groups to group-specific 1991 values. That is, the mean of the labor  market participation rates in 1991 become equal to 1. Plot a graph (as the one before, including labeling, title, and legend) in Figure 2.
 
-
-
 \includegraphics[width=5in, height=3in]{figure2}
-
-
-
 
 \item  Based on Figures 1 and 2, discuss the validity of using single women without children as control group.
 
 When looking at figure one it is difficult to determine whether or not the idea of using single women without children as a control group is valid.  The levels of labor market participation are significantly different and both trends seem similar.  However, once we index the labor market participation rate to 1991 and look at changes in the level with respect to 1991 we see that both groups track closely until 1994 when there is a divergence.  This implies that we can use single woment without children as a control group.
 
 \item Calculate the sample means of labor force participation rates (work) of women with and without children for the pre-(average over 1991-1993) and post-reform (average over 1994-1996) period. Organize your table (Table 2) as in Table II in Eissa and Liebman (1996).
-
+\include{table5}
+\item Calculate the within-and between-group differences as well as the unconditional difference-in-differences estimate and add them to Table 2. Briefly comment on your results.
 \include{table4}
 
-\item Calculate the within-and between-group differences as well as the unconditional difference-in-differences estimate and add them to Table 2. Briefly comment on your results.
+We find that there is an increase in the labor supply of single women with children from the pre-1993 period to the post-1993 period.  This is inline with what we would expect from the theory.
 
 \item  Repeat the comparison separately for women with one child and for women with at least two children for the years before and after the EITC expansion. Again compute the within-and between-group differences and the difference-in-differences estimates. Compare each of the two groups separately to single women without children (the control group). Display the results in Table 3 and discuss your findings. For which of the two groups do you find larger treatment effects? Is this consistent with the theoretical predictions?
 
+We find a treatment effect of approximately 3 percent for single women with one child verus a treatment effect of almost 6 percent for women with two children.  This is in line with theoretical predictions as the incentive to work increases with the number of children.
+
+\include{table6}
+
 \item Return to the comparison of women with and without children. Estimate the difference-in-differences effect from the EITC expansion by running OLS regressions. As dependent variable, use the dummy indicating labor market participation(work). First run a regression without controls (“unconditional diff-in-diff estimate”). Then add control variables (urate nonwhite age ed) to obtain the “conditional diff-in-diff estimate”. Present your results (including standard errors) in Table 4 and interpret them. Compare the estimates and their statistical significance for the conditional and unconditional difference-in-differences estimates. Also comment on the estimated coefficients of child and post1993.
 
-\include{table1}
-
-
-\include{table2}
-
+\include{regressTable1}
 
 \item Estimate a conditional (i.e., including urate nonwhite age ed), “placebo” treatment model on the pre-treatment period. For this purpose, take data from the years 1991-1993 only and leave the treatment and control groups unchanged. Assume for the analysis that the placebo reform would have taken place on January 1st, 1992 (generate a dummy variable postplacebo that is one for year 1992 and after and an interaction with child) and present your results (including standard errors) in Table 5. What do you find?
 
-We find that when building a "placebo" model we find no significant effects on labor supply of single women with children in the period preceding the change in the EITC.  This supports the argument that the change we see in the later period is due to the changes in the EITC and not some other unobserved variable.  In this case we find the coefficient of the interaction variable is -0.0127 with a standard error of 0.024.
+\include{regressTable2}
 
-
-​\include{table3}
-
+We find that when building a "placebo" model there are no significant effects on labor supply of single women with children in the period preceding the change in the EITC.  This supports the argument that the change we see in the later period is due to the changes in the EITC and not some other unobserved variable.  In this case we find the coefficient of the interaction variable is -0.0127 with a standard error of 0.024.
 
 \end{enumerate}
 
-
 \section{Code}
+
+\subsection{Regression Outputs from Python}
+
+\include{table1}
+
+\include{table2}
+
+​\include{table3}
+
+\subsection{Python Code from Jupyter Notebook}
 
 \lstinputlisting[language=Python]{python}
 
-\end{document}
 
+
+\subsection{Stata Code}
+
+\lstinputlisting{file_HW1.do}
+
+\end{document}

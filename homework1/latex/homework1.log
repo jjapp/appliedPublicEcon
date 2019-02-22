@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.1.2)  21 FEB 2019 20:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.1.2)  22 FEB 2019 12:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -226,7 +226,9 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-(./homework1.aux (./table4.aux) (./table1.aux) (./table2.aux) (./table3.aux))
+(./homework1.aux (./table5.aux) (./table4.aux) (./table6.aux)
+(./regressTable1.aux) (./regressTable2.aux) (./table1.aux) (./table2.aux)
+(./table3.aux))
 \openout1 = `homework1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -340,7 +342,7 @@ e
 <newplot.png, id=1, 985.6825pt x 526.96875pt>
 File: newplot.png Graphic file (type png)
 <use newplot.png>
-Package pdftex.def Info: newplot.png  used on input line 76.
+Package pdftex.def Info: newplot.png  used on input line 74.
 (pdftex.def)             Requested size: 361.35786pt x 216.81442pt.
 [1
 
@@ -348,169 +350,93 @@ Package pdftex.def Info: newplot.png  used on input line 76.
 <figure2.png, id=12, 985.6825pt x 526.96875pt>
 File: figure2.png Graphic file (type png)
 <use figure2.png>
-Package pdftex.def Info: figure2.png  used on input line 84.
+Package pdftex.def Info: figure2.png  used on input line 78.
 (pdftex.def)             Requested size: 361.35786pt x 216.81442pt.
  [2 <./newplot.png> <./figure2.png>]
-\openout2 = `table4.aux'.
+\openout2 = `table5.aux'.
 
- (./table4.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-[]|\OT1/cmr/m/n/10 Pre-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-[]|\OT1/cmr/m/n/10 Post-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-[]|\OT1/cmr/m/n/10 Diff-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-[]|\OT1/cmr/m/n/10 Treatment
- []
-
-
-Underfull \hbox (badness 2080) in paragraph at lines 9--9
-\OT1/cmr/m/n/10 Group (Sin-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-\OT1/cmr/m/n/10 gle Women
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-\OT1/cmr/m/n/10 With Chil-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
-[]|\OT1/cmr/m/n/10 Control
- []
-
-
-Underfull \hbox (badness 2080) in paragraph at lines 11--11
-\OT1/cmr/m/n/10 Group (Sin-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
-\OT1/cmr/m/n/10 gle Women
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
-\OT1/cmr/m/n/10 With-out
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
-\OT1/cmr/m/n/10 Chil-dren,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
-[]|\OT1/cmr/m/n/10 Single
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
-\OT1/cmr/m/n/10 Mother,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
-\OT1/cmr/m/n/10 One Child,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-[]|\OT1/cmr/m/n/10 Control
- []
-
-
-Underfull \hbox (badness 2080) in paragraph at lines 15--15
-\OT1/cmr/m/n/10 Group (Sin-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-\OT1/cmr/m/n/10 gle Women
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-\OT1/cmr/m/n/10 With-out
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-\OT1/cmr/m/n/10 Chil-dren),
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
-[]|\OT1/cmr/m/n/10 Single
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
-\OT1/cmr/m/n/10 Mother
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
-\OT1/cmr/m/n/10 w/ Two
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
-\OT1/cmr/m/n/10 Chil-dren,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-[]|\OT1/cmr/m/n/10 Control
- []
-
-
-Underfull \hbox (badness 2080) in paragraph at lines 19--19
-\OT1/cmr/m/n/10 Group (Sin-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/cmr/m/n/10 gle Women
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/cmr/m/n/10 With-out
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/cmr/m/n/10 Chil-dren),
- []
-
-) [3
+ (./table5.tex) [3
 
 ] [4
 
 ]
+\openout2 = `table4.aux'.
+
+ (./table4.tex
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\OT1/cmr/m/n/10 Between Group Dif-fer-
+ []
+
+) [5
+
+] [6
+
+]
+\openout2 = `table6.aux'.
+
+ (./table6.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+[]|\OT1/cmr/m/n/10 Within
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 Group Dif-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+[]|\OT1/cmr/m/n/10 Difference-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+\OT1/cmr/m/n/10 in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]|\OT1/cmr/m/n/10 Between Group Dif-fer-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/10 Between Group Dif-fer-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]|\OT1/cmr/m/n/10 Between Group Dif-fer-
+ []
+
+) [7
+
+] [8
+
+]
+\openout2 = `regressTable1.aux'.
+
+ (./regressTable1.tex) [9
+
+] [10
+
+]
+\openout2 = `regressTable2.aux'.
+
+ (./regressTable2.tex) [11
+
+] [12
+
+]
 \openout2 = `table1.aux'.
 
- (./table1.tex) [5
+
+(./table1.tex) [13
 
 ]
 \openout2 = `table2.aux'.
 
- (./table2.tex) [6
+ (./table2.tex) [14
 
 
 ]
@@ -522,23 +448,21 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 ​
+l.117 ​
          \include{table3}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[7
-
-]
 \openout2 = `table3.aux'.
 
- (./table3.tex) [8
+(./table3.tex) [15
+
 
 ]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) (./python.tex
-[9
+[16
 
 ]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 120.
@@ -548,7 +472,7 @@ File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 120.
- [10] [11]
+ [17] [18]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 205.
 
 
@@ -557,31 +481,33 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 205.
-) [12] (./homework1.aux (./table4.aux) (./table1.aux) (./table2.aux) (./table3.
-aux)) ) 
+) (./file_HW1.do
+[19]) [20] (./homework1.aux (./table5.aux) (./table4.aux) (./table6.aux)
+(./regressTable1.aux) (./regressTable2.aux) (./table1.aux) (./table2.aux)
+(./table3.aux)) ) 
 Here is how much of TeX's memory you used:
- 5026 strings out of 494543
- 68089 string characters out of 6176662
- 329984 words of memory out of 5000000
- 8569 multiletter control sequences out of 15000+600000
- 8716 words of font info for 32 fonts, out of 8000000 for 9000
+ 5125 strings out of 494543
+ 69223 string characters out of 6176662
+ 329281 words of memory out of 5000000
+ 8636 multiletter control sequences out of 15000+600000
+ 9023 words of font info for 33 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  41i,8n,43p,740b,1795s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy8.pfb>
-Output written on homework1.pdf (12 pages, 212765 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb>
+Output written on homework1.pdf (20 pages, 228039 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 118 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

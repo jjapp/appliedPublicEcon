@@ -1,7 +1,11 @@
 This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: homework1.aux
+A level-1 auxiliary file: table5.aux
 A level-1 auxiliary file: table4.aux
+A level-1 auxiliary file: table6.aux
+A level-1 auxiliary file: regressTable1.aux
+A level-1 auxiliary file: regressTable2.aux
 A level-1 auxiliary file: table1.aux
 A level-1 auxiliary file: table2.aux
 A level-1 auxiliary file: table3.aux
@@ -10,7 +14,7 @@ I found no \bibdata command---while reading file homework1.aux
 I found no \bibstyle command---while reading file homework1.aux
 You've used 0 entries,
             0 wiz_defined-function locations,
-            87 strings with 532 characters,
+            91 strings with 586 characters,
 and the built_in function-call counts, 0 in all, are:
 = -- 0
 > -- 0
