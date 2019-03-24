@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.1.2)  23 FEB 2019 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.1.2)  23 MAR 2019 21:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**homework1.tex
-(./homework1.tex
+**homework2.tex
+(./homework2.tex
 LaTeX2e <2018-04-01> patch level 5
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -226,10 +226,8 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-(./homework1.aux (./summaryStats.aux) (./table5.aux) (./table4.aux)
-(./table6.aux) (./regressTable1.aux) (./regressTable2.aux) (./table1.aux)
-(./table2.aux) (./table3.aux))
-\openout1 = `homework1.aux'.
+(./homework2.aux)
+\openout1 = `homework2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
@@ -341,196 +339,24 @@ e
 \c@lstlisting=\count124
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-\openout2 = `summaryStats.aux'.
-
- (./summaryStats.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-[]|\OT1/cmr/m/n/10 Without
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-[]|\OT1/cmr/m/n/10 With Chil-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-[]|\OT1/cmr/m/n/10 2 or more
- []
-
-) [2
-
-]
-<newplot.png, id=13, 985.6825pt x 526.96875pt>
-File: newplot.png Graphic file (type png)
-<use newplot.png>
-Package pdftex.def Info: newplot.png  used on input line 81.
-(pdftex.def)             Requested size: 361.35786pt x 216.81442pt.
-<figure2.png, id=15, 985.6825pt x 526.96875pt>
-File: figure2.png Graphic file (type png)
-<use figure2.png>
-Package pdftex.def Info: figure2.png  used on input line 85.
-(pdftex.def)             Requested size: 361.35786pt x 216.81442pt.
- [3
-
- <./newplot.png> <./figure2.png>] [4]
-\openout2 = `table5.aux'.
-
- (./table5.tex) [5
-
-] [6
-
-]
-\openout2 = `table4.aux'.
-
-
-(./table4.tex
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
-[]|\OT1/cmr/m/n/10 Between Group Dif-fer-
- []
-
-) [7
-
-] [8
-
-]
-\openout2 = `table6.aux'.
-
- (./table6.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
-[]|\OT1/cmr/m/n/10 Within
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
-\OT1/cmr/m/n/10 Group Dif-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-[]|\OT1/cmr/m/n/10 Difference-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-\OT1/cmr/m/n/10 in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-[]|\OT1/cmr/m/n/10 Between Group Dif-fer-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-[]|\OT1/cmr/m/n/10 Between Group Dif-fer-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
-[]|\OT1/cmr/m/n/10 Between Group Dif-fer-
- []
-
-) [9
-
-] [10
-
-]
-\openout2 = `regressTable1.aux'.
-
- (./regressTable1.tex) [11
-
-] [12
-
-]
-\openout2 = `regressTable2.aux'.
-
- (./regressTable2.tex) [13
-
-] [14
-
-]
-\openout2 = `table1.aux'.
-
-
-(./table1.tex) [15
-
-]
-\openout2 = `table2.aux'.
-
- (./table2.tex) [16
-
-
-]
-
-! Package inputenc Error: Unicode character ​ (U+200B)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.132 ​
-         \include{table3}
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-\openout2 = `table3.aux'.
-
-(./table3.tex) [17
-
-
-]
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-) (./python.tex
-[18
-
-]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 120.
-
- (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 120.
- [19] [20]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 205.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 205.
-) (./file_HW1.do
-[21]) [22] (./homework1.aux (./summaryStats.aux) (./table5.aux) (./table4.aux)
-(./table6.aux) (./regressTable1.aux) (./regressTable2.aux) (./table1.aux)
-(./table2.aux) (./table3.aux)) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./homework2.aux) ) 
 Here is how much of TeX's memory you used:
- 5133 strings out of 494543
- 69352 string characters out of 6176662
- 329589 words of memory out of 5000000
- 8637 multiletter control sequences out of 15000+600000
- 9023 words of font info for 33 fonts, out of 8000000 for 9000
+ 4420 strings out of 494543
+ 62073 string characters out of 6176662
+ 137887 words of memory out of 5000000
+ 8008 multiletter control sequences out of 15000+600000
+ 8261 words of font info for 30 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 41i,8n,43p,962b,1795s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on homework1.pdf (22 pages, 231236 bytes).
+ 41i,6n,32p,476b,242s stack positions out of 5000i,500n,10000p,200000b,80000s
+</u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on homework2.pdf (2 pages, 63950 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
+ 27 PDF objects out of 1000 (max. 8388607)
+ 18 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

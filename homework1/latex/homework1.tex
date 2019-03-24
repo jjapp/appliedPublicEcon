@@ -60,7 +60,14 @@ Yes, we expect the number of children to impact the size of the effect.  The mor
 
 \item  Generate a table with descriptive statistics (Table 1, structured as in Table I in Eissa and Liebman, 1996), which contains the sample means of the variables nonwhite age ed work  earn  for  two groups: single women with and without children. You do not need to display the  standard deviations. Briefly discuss the differences.
 
-\item  Now calculate the sample means separately for single women with one child and women with two or m?ore children (add the information to Table 1). How do they differ from each other
+We included this table and our discussion of results as part of our answer to the next question.
+
+
+\item  Now calculate the sample means separately for single women with one child and women with two or m?ore children (add the information to Table 1). How do they differ from each other?
+
+Table 1 shows the mean of some of the variables for the single women in terms of the number of children they have. Firstly, single women with children are more likely to have less years of education by half years. Single women with children are more likely to join labor force by 11 percentage points. Single women without children are 12 percentage points less likely to be either black or Hispanic compared to single women with children. Additionally, women with no children has a higher earnings by about 5,700 dollars compared to single women with children. As for in group differences for women with children,  single women with one child earn about 3,300 dollars on average more than single women with at least two children. Age and education level are similar but single women with single child are 12 percentage points more likely to join to the labor work force and 11 percentage less likely to have the race of either Black or Hispanic.
+
+\include{summaryStats}
 
 \end{enumerate}
 
@@ -96,13 +103,21 @@ We find a treatment effect of approximately 3 percent for single women with one 
 
 \item Return to the comparison of women with and without children. Estimate the difference-in-differences effect from the EITC expansion by running OLS regressions. As dependent variable, use the dummy indicating labor market participation(work). First run a regression without controls (“unconditional diff-in-diff estimate”). Then add control variables (urate nonwhite age ed) to obtain the “conditional diff-in-diff estimate”. Present your results (including standard errors) in Table 4 and interpret them. Compare the estimates and their statistical significance for the conditional and unconditional difference-in-differences estimates. Also comment on the estimated coefficients of child and post1993.
 
+We ran a regression without control variables for labor rate participation.  Post1993 indicates the data is after the expansion of EITC.  The coefficient of this variable captures total changes in labor force participation between the two periods.  The child coefficient captures the impact of having children on labor force participation.  The coefficient of the interaction variable captures the impact of the expansion of EITC on the labor force participation rate for single women with at least one child.
+
+After running the unconditional regression we obtain the results in table 4. Probability of labor participation for women with children is 12.9 percent less than women without children without considering any reform. Due to the 1993 reform, the probability of labor participation for women with children increased by 4.7 percentage compared to the women without children. The coefficient of the variable for post1993 is not significant.  This variable allows us to control for trends in the data and we find no significant trend impact based on time period alone.  
+
+Controlling for factors like race, education and overall unemployment rate allow us to improve the model by removing effects that may bias our estimate.  For example, as years of education increase by a year the probability of labor participation increases by 1.7 percent.  Women of African-American or Hispanic heritage are 4.4 percent less likely to participate in the labor market.  Including these controls improves the specification, improves the significance of the findings, and reduces the potential for unobserved variables bias.
+
 \include{regressTable1}
 
 \item Estimate a conditional (i.e., including urate nonwhite age ed), “placebo” treatment model on the pre-treatment period. For this purpose, take data from the years 1991-1993 only and leave the treatment and control groups unchanged. Assume for the analysis that the placebo reform would have taken place on January 1st, 1992 (generate a dummy variable postplacebo that is one for year 1992 and after and an interaction with child) and present your results (including standard errors) in Table 5. What do you find?
 
+We find that when building a "placebo" model there are no significant effects on labor supply of single women with children in the period preceding the change in the EITC.  This supports the argument that the change we see in the later period is due to the changes in the EITC and not some other unobserved variable.  In this case we find the coefficient of the interaction variable is -0.0127 with a standard error of 0.024.
+
+
 \include{regressTable2}
 
-We find that when building a "placebo" model there are no significant effects on labor supply of single women with children in the period preceding the change in the EITC.  This supports the argument that the change we see in the later period is due to the changes in the EITC and not some other unobserved variable.  In this case we find the coefficient of the interaction variable is -0.0127 with a standard error of 0.024.
 
 \end{enumerate}
 
