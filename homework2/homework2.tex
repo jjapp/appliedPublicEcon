@@ -48,9 +48,13 @@
 \begin{enumerate}[label=\alph*]
 \item Calculate the share of students receiving free lunch, the share of white Asian students, the average age in 1985, the attrition rate, average class size, and gender by the enter-variables 2generated above and by treatment status (small class, regular class, and regular class with aide). Present your summary statistics for STAR participants in Table 1, structured as in Table I in Krueger (1999). You do not need to provide standard deviations.
 
+\include{table1}
+
 \item  Calculate the average of the percentile ranks of the math and reading tests for every individual in each year (name the variables testk etc.). (Hint: If one subtest score is missing, take the percentile score corresponding to the only available test as in Krueger (1999), fn.11.) Add the average values by the enter-variables and by treatment status to Table 1.
 
 \item  Comment on the characteristics of students assigned to the “small class” treatment, who entered STAR in kindergarten.
+
+A few interesting characteristics stand out.  There are potentially a higher number of white and asian students than you would expect.  Also, the socioeconomic status of the students in the small class could be better than you would expect from a truly random sample (a smaller percentage of students are on the free lunch program in the small class than you would expect).
 
 \end{enumerate}
 
@@ -62,11 +66,17 @@ The first question to ask about a randomized experiment is whether the randomiza
 
 \item  The STAR data does not include any pre-treatment test scores. Do you think that this is a problem? Explain briefly.
 
+This could be a problem because the baseline test score information on the students are not available. Therefore the author cannot test if the treated students and non- treated (control) students are complementary on this measure. The author can compensate this problem by successful random assignment between small, regular and regular-aide class types. If this happens, we would expect that regular and small class sizes would exhibit similar characteristics.  This happens as we move along the paper. So the answer is yes but it can be overcome.
+
 \item  Compare the student characteristics collected in Table 1 across treatments. Formally test the null hypothesis of no difference across treatment groups using an F-test. Add both F-statistics (rounded to 2 digits after the decimal point) and p-values to Table 1. Do you think that randomization was successful, and why/why not? (Hint: Use the regress and test commands.)
+
+After testing the null hypothesis of between-group (differences), equality for small, regular and regular groups with aide, age, attrition, class size and percentile scores tests should be rejected. The p-values for free lunch and White/Asian do not allow us to accept the null hypothesis. This indicates that the randomization was not implemented fully.  There are a number of reasons this could happen including between school differences.
 
 \item  In fact, the treatment was randomly assigned to students and teachers within schools. For each of the variables in Table 1, test the null hypothesis that, conditional on school of attendance, there are no significant differences across treatment groups. Once again, give both F-statistics and p-values and add them to Table 1. (Hint: Use school dummy variables.) 
 
 Are the results consistent with random assignment conditional on school attendance? Explain.
+
+Random assignment was only valid within schools. Therefore these differences suggest the importance of controlling for school effects. We expect that applying school dummies into regression to capture within school effects will yield more reliable results. Free lunch and White/Asian are all non-significant and can be rejected at the 5 percent level. Therefore, these characteristics do not change due to group differences. Age is not affected by the group differences in kindergarten but null hypothesis can be  as we move on the first grade. Attrition rate changes due to group differences. As expected, test scores and class sizes change due to group changes. Even before running the regression, we see that as we move from small to regular class sizes, student performance is different.
 
 \end{enumerate}
 
@@ -77,11 +87,21 @@ Are the results consistent with random assignment conditional on school attendan
 
 \item Run OLS regressions with the average percentile test score (testk etc.) constructed in Question 1b as a dependent variable (assubming that the errors are iid). Produce regression results similar to those given in columns (1) to (3) of Table V in Krueger (1999) and present them in Table 2 A-D.
 
+\include{table2}
+
 \item  Interpret the coefficients on the small class and the regular/aide class indicators for kindergarten children in column (1) of Table 2.
+
+A child placed in a small class size sees a 4.79 percent improvement in their performance on the SAT versus the baseline.  Being placed in a regular class results in a reduction in performanct on the SAT from baseline of 0.27%.
 
 \item  Do the coefficients on the small class indicator change if additional explanatory variables are added to the model? What does this tell you about selection on observables?
 
+As we add the explanatory variables we see the impact of small class size on performance increase to 5.45 percent and the impact of a regular class side with an aide increases to 0.149 percent.  This means that our initial estimate was biased due to failing to account for race, socioeconomic status and gender.  
+
+If these classes were truly randomly assigned, it would not significantly alter the coefficients. This shows that student selections after the initial assignment are caused by non-random movements.
+
 \item  Suppose that test scores are measures of true skills that are noisy (i.e., subject to measurement error). How do you expect this to affect your estimates of the coefficient? Explain briefly.
+
+If test scores are a noisy measure of true skill then we would expect our standard errors for our coeffficient estimates to increase.  They will not bias our coefficients as long as the measure is not biased.  This is easy to see if you add a noise term to the left hand side of the standard OLS equation.  Assuming an unbiased, random measurement error we can then subtract it from both sides.  Now we have two error terms on the right hand side of the equation that are independent and can be combined into one composite error term.
 
 \end{enumerate}
 
@@ -93,24 +113,33 @@ So far, we have focused on actual class type. As described in Krueger (1999), th
 
 \item Reproduce Table IV in Krueger (1999) showing transitions between class types in adjacent grades. Display your results in Table 3.
 
+\include{table3}
+
 \item Generate a variable that contains each student’s initial assignment to a class type.
 
 \item Krueger (1999) argues that initial class assignment is highly correlated with actual class assignment in later years. Show that initial class assignment is a good predictor of actual class treatment in each grade.
 
+The following shows the correlation between class assignment and later year class type:
+
+CtypeK:  1\\
+Ctype1:  0.62\\
+Ctype2:  0.58\\
+Ctype3: 0.66\\
+
+Through all years the actual class and the initial class assignment are strongly correlated.
+
 \item Consider using initial class assignment as an instrumental variable for actual class treatment. Name the two conditions that a valid instrument needs to fulfill. Do you think that the requirements are met by initial class assignment, and why/why not?
+
+A valid instrument must be correlated with the variable of interest (class size) and uncorrelated with the error term.  In this case we showed that initial class assignment correlates with the actual class a student is in.  The question is whether or not this instrument will be correlated with the error term.  In this case the class assignment is random even though the actual class a student is in may not be.  Therefore, the instrument meets the necessary requirements.
 
 \item For each grade, run an instrumental variable regression of average math reading test score on actual class type dummies (small class and regular with aide class), using initially assigned class type dummies as instruments (without further control variables). Report your results in Table 4. How do your results compare to those found in Table 2? Do they suggest that non-random transitions between class types were a problem?
 
+\include{table4}
+
+
+Compared to table 2, coefficients are higher for small classes. Because of the non-random movements to different class sizes, coefficients were downward biased. Random initial assignment used as an instrument corrects this bias. Therefore, actually being in a small class compared to regular class is more positively effective than OLS results.
+
+
 \end{enumerate}
-
-\section{Code}
-
-\subsection{Python Code from Jupyter Notebook}
-
-%\lstinputlisting[language=Python]{python}
-
-\subsection{Stata Code}
-
-%\lstinputlisting{file_HW1.do}
 
 \end{document}

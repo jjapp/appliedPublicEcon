@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.1.2)  23 MAR 2019 21:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.1.2)  26 MAR 2019 22:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -226,7 +226,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-(./homework2.aux)
+(./homework2.aux (./table1.aux) (./table2.aux) (./table3.aux) (./table4.aux))
 \openout1 = `homework2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -339,24 +339,193 @@ e
 \c@lstlisting=\count124
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./homework2.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+\openout2 = `table1.aux'.
+
+ (./table1.tex
+Overfull \hbox (5.60287pt too wide) in paragraph at lines 10--10
+[]|\OT1/cmr/m/n/10 Regular| 
+ []
+
+
+Overfull \hbox (5.60287pt too wide) in paragraph at lines 10--10
+[]|\OT1/cmr/m/n/10 Regular
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\OT1/cmr/m/n/10 with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]|\OT1/cmr/m/n/10 F-
+ []
+
+
+Overfull \hbox (7.714pt too wide) in paragraph at lines 10--10
+\OT1/cmr/m/n/10 Statistic| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]|\OT1/cmr/m/n/10 School
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\OT1/cmr/m/n/10 DV
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\OT1/cmr/m/n/10 Joint
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]|\OT1/cmr/m/n/10 Joint
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\OT1/cmr/m/n/10 P-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]|\OT1/cmr/m/n/10 School
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 DV
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 Joint
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 P-
+ []
+
+
+Overfull \hbox (7.10292pt too wide) in paragraph at lines 18--18
+[]|\OT1/cmr/m/n/10 7,098.00| 
+ []
+
+
+Overfull \hbox (9.32515pt too wide) in paragraph at lines 18--18
+[]|\OT1/cmr/m/n/10 12590.24| 
+ []
+
+
+Overfull \hbox (9.32515pt too wide) in paragraph at lines 29--29
+[]|\OT1/cmr/m/n/10 13483.00| 
+ []
+
+
+Overfull \hbox (9.32515pt too wide) in paragraph at lines 29--29
+[]|\OT1/cmr/m/n/10 39690.69| 
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 30--30
+[]|\OT1/cmr/m/n/10 6. Per-centile Score in
+ []
+
+
+Overfull \hbox (9.32515pt too wide) in paragraph at lines 39--39
+[]|\OT1/cmr/m/n/10 48082.16| 
+ []
+
+
+Overfull \hbox (9.32515pt too wide) in paragraph at lines 48--48
+[]|\OT1/cmr/m/n/10 23138.96| 
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 49--49
+[]|\OT1/cmr/m/n/10 6. Per-centile Score in
+ []
+
+) [2
+
+] [3
+
+] [4]
+\openout2 = `table2.aux'.
+
+ (./table2.tex) [5
+
+] [6
+
+]
+\openout2 = `table3.aux'.
+
+ (./table3.tex
+Overfull \hbox (0.92796pt too wide) in paragraph at lines 12--12
+[]|\OT1/cmr/m/n/10 Kindergarten| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]|\OT1/cmr/m/n/10 Regular w/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]|\OT1/cmr/m/n/10 Regular w/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/10 Regular w/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]|\OT1/cmr/m/n/10 Regular w/
+ []
+
+) [7
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 124--128
+
+ []
+
+[8
+
+]
+\openout2 = `table4.aux'.
+
+ (./table4.tex) [9
+
+] [10
+
+] (./homework2.aux (./table1.aux) (./table2.aux)
+(./table3.aux) (./table4.aux)) ) 
 Here is how much of TeX's memory you used:
- 4420 strings out of 494543
- 62073 string characters out of 6176662
- 137887 words of memory out of 5000000
- 8008 multiletter control sequences out of 15000+600000
- 8261 words of font info for 30 fonts, out of 8000000 for 9000
+ 4453 strings out of 494543
+ 62410 string characters out of 6176662
+ 156112 words of memory out of 5000000
+ 8013 multiletter control sequences out of 15000+600000
+ 8408 words of font info for 31 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 41i,6n,32p,476b,242s stack positions out of 5000i,500n,10000p,200000b,80000s
-</u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on homework2.pdf (2 pages, 63950 bytes).
+ 41i,8n,32p,807b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17
+.pfb>
+Output written on homework2.pdf (10 pages, 74272 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
- 18 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
